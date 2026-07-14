@@ -1,6 +1,6 @@
 ---
 title: "Procedural Generation"
-excerpt: "A dungeon-type procedural generation with."
+excerpt: "A dungeon-type procedural generation."
 header:
   teaser: /assets/images/mygame-teaser.png
   video:
