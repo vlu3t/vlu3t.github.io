@@ -13,14 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Volt Portfilio
-email: Godot Developer & Game Programmer
-description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio of games and tools built with Godot
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: neon
-search: true
+title: "Your Name"
+subtitle: "Godot Developer & Game Programmer"
+description: "Portfolio of games and tools built with Godot"
+minimal_mistakes_skin: "dark"   # or "contrast", "neon", "dirt", etc.
+locale: "en-US"
+url: "https://yourusername.github.io"
 
 # Build settings
 markdown: kramdown
@@ -56,22 +54,16 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: "Abdelrahman Tamam"
+  bio: "Programmer making games with Godot"
+  location: "Doha, Qatar"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/yourusername"
+    - label: "itch.io"
+      icon: "fas fa-fw fa-gamepad"
+      url: "https://yourusername.itch.io"
 
 footer:
   links:
@@ -84,6 +76,14 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
+
+main:
+  - title: "Projects"
+    url: /portfolio/
+  - title: "Devlog"
+    url: /year-archive/
+  - title: "About"
+    url: /about/
 
 defaults:
   # _posts
