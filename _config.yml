@@ -35,7 +35,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Abdelrahman Tamam"
+  name: "Volt"
   bio: "Programmer making games with Godot"
   location: "Doha, Qatar"
   links:
