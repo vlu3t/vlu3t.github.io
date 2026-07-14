@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/
 ---
 
-I'm Abdelrahman Tamam, a programmer based in Doha, Qatar, building games and tools with **Godot**.
+I'm Volt, a programmer based in Doha, Qatar, building games and tools with **Godot**.
 
 I'm interested in [gameplay systems / procedural generation / UI / multiplayer systems].
 
