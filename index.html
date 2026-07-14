@@ -1,7 +1,11 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: archive
+title: "Projects"
+permalink: /
 author_profile: true
 ---
+
+{% assign portfolio_items = site.portfolio | sort: 'date' | reverse %}
+{% for post in portfolio_items %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
