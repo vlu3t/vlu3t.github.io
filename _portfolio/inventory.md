@@ -13,12 +13,12 @@ sidebar:
   - title: "Systems"
     text: "Inventory management, drag & drop UI, equipment system"
 gallery:
-  - url: assets/images/inventory-full.png
-    image_path: /assets/images/inventory-full.png
+  - url: assets/images/inv.png
+    image_path: assets/images/inv.png
     alt: "Full inventory interface"
 
-  - url: assets/images/inventory-closeup.png
-    image_path: /assets/images/inventory-closeup.png
+  - url: assets/images/ee.png
+    image_path: assets/images/ee.png
     alt: "Inventory equipment slots"
 
 date: 2026-07-14
