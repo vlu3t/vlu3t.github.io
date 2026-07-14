@@ -1,8 +1,8 @@
 # Welcome to Jekyll!
-title: "Abdelrahman Tamam"
+title: "Volt"
 subtitle: "Godot Developer & Game Programmer"
 description: "Portfolio of games and tools built with Godot"
-minimal_mistakes_skin: "dark"   # try: default, air, contrast, dark, dirt, neon, mint, plum, sunrise, aqua
+minimal_mistakes_skin: "neon"   # try: default, air, contrast, dark, dirt, neon, mint, plum, sunrise, aqua
 locale: "en-US"
 url: "https://vlu3t.github.io"   # <-- replace with your actual GitHub Pages URL
 
