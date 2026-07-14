@@ -1,50 +1,31 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: "Your Name"
+title: "Abdelrahman Tamam"
 subtitle: "Godot Developer & Game Programmer"
 description: "Portfolio of games and tools built with Godot"
-minimal_mistakes_skin: "dark"   # or "contrast", "neon", "dirt", etc.
+minimal_mistakes_skin: "dark"   # try: default, air, contrast, dark, dirt, neon, mint, plum, sunrise, aqua
 locale: "en-US"
-url: "https://yourusername.github.io"
+url: "https://vlu3t.github.io"   # <-- replace with your actual GitHub Pages URL
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Qatar
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
-# Plugins (previously gems:)
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -60,30 +41,19 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/YOUR_ACTUAL_USERNAME"
     - label: "itch.io"
       icon: "fas fa-fw fa-gamepad"
-      url: "https://yourusername.itch.io"
+      url: "https://YOUR_ACTUAL_USERNAME.itch.io"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-main:
-  - title: "Projects"
-    url: /portfolio/
-  - title: "Devlog"
-    url: /year-archive/
-  - title: "About"
-    url: /about/
+      url: "https://github.com/YOUR_ACTUAL_USERNAME"
+    - label: "itch.io"
+      icon: "fas fa-fw fa-gamepad"
+      url: "https://YOUR_ACTUAL_USERNAME.itch.io"
 
 defaults:
   # _posts
@@ -94,7 +64,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -104,6 +74,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 category_archive:
   type: liquid
