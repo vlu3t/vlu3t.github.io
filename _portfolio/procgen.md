@@ -16,12 +16,12 @@ sidebar:
   - title: "Systems"
     text: "Graph generation, spatial placement, encounter design"
 gallery:
-  - url: /assets/images/procgen-1.png
+  - url: assets/images/procgen2.png
     image_path: /assets/images/procgen-1.png
-    alt: "Generated dungeon layout"
-  - url: /assets/images/procgen-2.png
+    alt: "Generated dungeon layout green tileset"
+  - url: assets/images/procgenss.png
     image_path: /assets/images/procgen-2.png
-    alt: "Minimap showing generated rooms"
+    alt: "Generated dungeon layout purple tileset"
 date: 2026-07-14
 ---
 
